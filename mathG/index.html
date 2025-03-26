@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Game for Kids</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Logout Button (Top Right) -->
+  <button id="logout-btn">Logout</button>
+
+  <!-- Mode Selection (Home) -->
+  <div id="mode-container">
+    <button id="learn-numbers-btn">Learn Numbers (0-10)</button>
+    <button id="math-quiz-btn">Math Quiz</button>
+  </div>
+
+  <!-- Game Container -->
+  <div id="game-container" style="display: none;">
+    <h1 id="game-title"></h1>
+    <div id="question-container">
+      <p id="question"></p>
+    </div>
+    <div id="answer-container">
+      <!-- Answer buttons will be generated here -->
+    </div>
+    <div id="feedback-container">
+      <p id="feedback"></p>
+    </div>
+    <div id="navigation-buttons">
+      <button id="back-btn">Back</button>
+      <button id="reveal-btn" disabled>Reveal Answer</button>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
